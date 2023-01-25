@@ -57,6 +57,18 @@ Ensimmäisenä lähdin tutkimaan komentoriviohjelmaa Xeyes, jonka avulla saat si
 
  - Tästä löysin googlettamalla tiedot sivustolta https://pkgs.alpinelinux.org/package/edge/community/x86/xeyes ja tämän mukaan ohjelma käyttää MIT lisenssiä.
  - Kyseessä on vapaasti muokattava lisenssi 
+ - Lisenssillä et voi tehdä kuitenkaan pitää koodin tekijää/tekijöitä laillisesti vastuussa mistään syystä. Et voi myöskään poistaa tekijänoikeusilmoitusta ja alkuperäistä lisenssiä koodiversiostasi. Lähde: https://fossa.com/blog/open-source-licenses-101-mit-license/ 
+ - MIT ja BSD-lisenssi jätti pari kysymystä ilman, että lähdin tutkimaan asiaa sen tarkemmin. Nämä kyseiset lisenssit ovat erittäin samanakaltaiset ja sisältävät samat perusvaatimukset. BSD-lisenssissä on kuitenkin useita muunnelmia ja se sisältää kielen, joka on hieman vähemmän sallittu. 
+
+Toisena ohjelmana lähdin tutkimaan komentoriviohjelmaa cmatrix, joka tuo elokuvasta tutun näkymän ruudullesi. 
+![Kuva 5 1](https://user-images.githubusercontent.com/100162043/214517598-0b46db63-de93-4e8d-87d8-eb2add033a19.jpg)
+
+ - Tästä löysin googlettamalla sivustolta https://archlinux.org/packages/community/x86_64/cmatrix/ ja tämän mukaan ohjelma käyttää GPL3 lisenssiä.
+ - Kyseessä on GPL lisensseistä se eniten käyttörajoituksia sisältävä lisenssi. Lisenssi pyrkii vastaamaan muun muassa haasteisiin, joita ohjelmistopatentit asettavat vapaiden ohjelmistojen kehittämiselle. Lisenssin alla olevia ohjelmiin voi tehdä lisäyksiä tai suuria muutoksia ja jakaa sitä eteenpäin. Muokattuun varsioon pätee kuitenkin samat lisenssivaatimukset kuin alkuperäisessä. Lähde https://fossa.com/blog/open-source-software-licenses-101-gpl-v3/ 
+ - GPL3 lisensoidun ohjelman muunnelman valmistaja menettää lisenssin tuomat oikeudet, mikäli hän uhkaa ohjelmiston käyttäjiä patentteihin liittyvin oikeustoimin. 
+ - https://fossa.com/blog/open-source-software-licenses-101-gpl-v3/ antoi hyvin tietoa aiheeseen liittyen. 
+
+Viimeisimpänä kyseenalaiseksi ladattu ohjelmisto 
 
 
     
