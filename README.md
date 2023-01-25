@@ -31,11 +31,33 @@ Ohjelma on ilmainen ohjelmisto, jos ohjelman käyttäjillä on neljä keskeistä
   - Yhteensopivuus. Avoimen lähdekoodin määritelmä asettaa vain kriteerit ohjelmistolisenssien sertifioimiseksi. 
   - Muodollisuudet. Lopuksi määritelmä ei edellytä, että lisenssien pitäisi olla oikeudellisesti sitovia tai täytäntöönpanokelpoisia.
     
-### Avoimen 
+### Avoimen lähdekoodin sopimuksen täytäntöönpano
 
  - Laki teoria. Niin kauan kuin ohjelmistolisenssejä on käytetty, on väitetty, että tällaiset lisenssisopimukset eivät välttämättä ole täytäntöönpanokelpoisia,
    koska käyttäjä ei välttämättä harkitse ja nimenomaisesti hyväksy lisenssiä. Monet avoimen lähdekoodin lisenssien kommentoijat kuitenkin väittävät, että
    lisenssit todellakin tulevat käyttöönottokelpoisiksi, kun käyttäjä levittää teosta edelleen. Levittämistä rajoittaa tekijänoikeus, kunnes lisenssi on hyväksytty. 
- - Para-oikeudellinen käytäntö. 
+ - Para-oikeudellinen käytäntö. On oltava varovainen, ettei ylikorosteta laillisen täytäntöönpanon roolia. Vaikka se voi olla nopea ja tehokas ja kattaa 
+   useimmat lisenssien noudattamiseen liittyvät ongelmat tiiviissä kehittäjäyhteisössä, sen ulottuvuus on silti rajallinen. 
+   
+### Lisenssit luokiteltu
+
+ - Toiminnalliset erot. Toiminnallisesta näkökulmasta avoimen lähdekoodin lisenssit voidaan luokitella sen mukaan, miten kukin lisenssi käsittelee lähdekoodin
+   muokkausoikeutta. 
+     - Normaali vastavuoroisuusvelvoite tarkoittaa, että lähdekoodin jakeluehdot on säilytettävä. 
+     - Vahva vastavuoroisuusvelvoite laajentaa normaalia versiota. Adaptaatioiden ja johdannaisten on säilytettävä lisenssiehdot ennallaan. 
+
+ Lähde: http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf 
+ 
+Melko tiiviiksi yritin näitä lainauksia käännellä molemmilta sivustoilta, mutta yllättävän paljon tekstin piitudet venyivät. Toisekseen se, että kuinka paljon näissä teksteissä on ns. ylimäärästä jargonia, vaikea sanoa. Melko hankalaa tekstiä osittain. 
+
+## Asennettujen ohjelmien lisenssit
+
+Ensimmäisenä lähdin tutkimaan komentoriviohjelmaa Xeyes, jonka avulla saat silmät ruudulle, jotka seuraavat hiiresi liikettä. 
+![Kuva 6 1](https://user-images.githubusercontent.com/100162043/214512030-751348c0-8d4b-4d22-b772-003a4934af4d.jpg)
+
+ - Tästä löysin googlettamalla tiedot sivustolta https://pkgs.alpinelinux.org/package/edge/community/x86/xeyes ja tämän mukaan ohjelma käyttää MIT lisenssiä.
+ - Kyseessä on vapaasti muokattava lisenssi 
+
+
     
  
