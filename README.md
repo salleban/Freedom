@@ -77,12 +77,41 @@ Viimeisimpänä ohjelmana tutkin komentoriviohjelmaa cowsay, joka on terminaalis
   - Samalla tavalla googlen kautta löysin tietoa, että ohjelmisto käyttää GPL2 lisenssiä. Lähde: https://www.linux.fi/wiki/Cowsay
   - Copyleft-lisenssinä GPL2:ssa on vain yksin avainvaroitus: Käyttäjät eivät voi lisensoida koodia muiolla ehdoilla. Kaikilla julkisesti jaetuilla muokkauksilla on oltava GPL2:n käyttöoikeus. 
   -  Lisenssi on samantapainen kuin GPL3, lisenssiä voi muokata ja tehdä muutoksia, mutta muutoksset täytyy julkaista lähdekoodin muodossa GPL v2 lisenssin alaisena. 
-  Lähde: https://fossa.com/blog/open-source-software-licenses-101-gpl-v2/
+ Lähde: https://fossa.com/blog/open-source-software-licenses-101-gpl-v2/
   - Samalla tavalla kuin GPL3 kanssa, https://fossa.com/blog/open-source-software-licenses-101-gpl-v2/ antoi hyvin tietoa aiheeseen liittyen. 
   
+  ## Grep & Pipes
   
+ Lähdin grep puolen kimppuun ensimmäisenä. Lähtölaukauksena toimi tekstitiedoston luominen cat komennolla. Tässä käytin melko yksinkertaisesti sanoja, mitkä tuli ekana mieleen. 
   
+  ![Greppaa](https://user-images.githubusercontent.com/100162043/214817034-86c3a16a-59b1-4c38-84f6-c13de25dc9d2.jpg)
 
+ Käytin ensimmäisenä hakua, missä hain ainoastaan sanoja jotka pitävät sisällään "a" kirjaimen. 
+  
+          $ grep -i "a" file.txt
+          
+ Seuravana kokeilin hakua "s" kirjaimella.
+  
+        $ grep -i "s" file.txt
+        
+ Ja lopuksi "ss" kirjain yhdistelmää, jolloin minulle jäi vain yksi sana näkyviin. 
+ 
+        $ grep -i "ss" file.txt
+        
+
+
+Pipes tapaa käytin myös greps komennon kanssa. Tässä on haettu hakuja sekä pienellä, että isolla alkukirjaimella, jolloin hakutulokset ovat eri. 
+
+![Pipes and Grep](https://user-images.githubusercontent.com/100162043/214818090-a1cb7cc9-4e71-4869-9ed0-6e41d1e7eb63.jpg)
+
+        $ ls | grep "d"
+        $ ls | grep "D"
+        
+## Loppukommentit
+
+Lisenssien kanssa tehtävä tuntui puurolta lähinnä tekstien sisällön kanssa. Kaikki tuntui olevan jossain määrin ympäripyöreää, mutta näinhän se on. 
+Grep ja pipes tehtävien osuus kului aikalailla pitkälti eri youtube videoiden ja muiden artikkeleiden lueskeluun, ennen kuin muistui tuo tapa hakea tietoa. 
+Pikkuhiljaa hyvä tulee, kohti seuraavaa!
 
 
     
