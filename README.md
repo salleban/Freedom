@@ -114,5 +114,9 @@ Grep ja pipes tehtävien osuus kului aikalailla pitkälti eri youtube videoiden 
 Pikkuhiljaa hyvä tulee, kohti seuraavaa!
 
 
-    
+Lähde: 
+Lisenssit: https://www.gnu.org/philosophy/free-sw.html, http://lib.tkk.fi/Diss/2005/isbn9529187793/isbn9529187793.pdf, https://pkgs.alpinelinux.org/package/edge/community/x86/xeyes, https://fossa.com/blog/open-source-licenses-101-mit-license/, https://archlinux.org/packages/community/x86_64/cmatrix/, https://fossa.com/blog/open-source-software-licenses-101-gpl-v3/, https://fossa.com/blog/open-source-software-licenses-101-gpl-v2/, https://www.linux.fi/wiki/Cowsay
+Grep: ps://www.geeksforgeeks.org/grep-command-in-unixlinux/?ref=lbp
+Pipes: https://www.howtogeek.com/438882/how-to-use-pipes-on-linux/
+
  
